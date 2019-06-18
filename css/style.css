@@ -1,0 +1,40 @@
+/* font-family: 'Gothic A1', sans-serif;
+ */
+
+.nav-link, .navbar-brand, h2, h1, p{
+    font-family: 'Gothic A1', sans-serif;
+}
+
+ .nav-link{
+    color: #BC2525
+}
+
+.navbar-brand{
+    font-size: 32px;
+}
+
+img{
+    height: 300px;
+    margin-left: 18.5px;
+}
+
+h2, p{
+    color: #EAEAEA;
+}
+
+.portfolio-img{
+    display: block;
+    margin: 0 auto;
+}
+
+p{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    img{
+        display: block;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
